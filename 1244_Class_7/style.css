@@ -1,0 +1,45 @@
+
+
+
+h2, h3, h4{
+ text-align: center;
+ text-transform: uppercase;
+}
+
+
+.questions{
+ color: red;
+ font-weight: 600;
+ 
+}
+
+.About-Us h4{
+ color: green;
+}
+.About-us-paragraph{
+ text-align: center;
+}
+
+
+img {
+ width: 200px;
+ height: 200px;
+ border-radius: 10px;
+ display: inline-block;
+}
+
+
+
+h5{
+ text-align: center;
+}
+
+.us-cards{
+ display: flex;
+align-items: center;
+ flex-direction: column;
+}
+
+i:hover{
+ color: red;
+}
