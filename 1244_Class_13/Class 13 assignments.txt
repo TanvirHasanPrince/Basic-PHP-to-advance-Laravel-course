@@ -1,0 +1,20 @@
+Users_table:
+INSERT INTO `users_table`( `username`, `age`, `phone`, `address`, `created_at`) VALUES ('Kalam','45','01828347','Barishal','1993-05-23'), ('Babul','23','0234828347','Dhaka','1995-03-23'), ('Slam','5','0182834783','Khulna','2003-05-23'), ('Bokul','30','23401828347','Savar','2000-05-23'), ('Ashok','55','0231828347','Ctg','1993-05-23');
+
+
+products_table:
+INSERT INTO `products_table`(`post_title`, `post_details`, `post_file`, `created_at`) VALUES ('Everybody wants to win','ioasndfoiasndfioasndfioasdnfioasdnf','ioasdnfoi','2020-05-23');
+
+Comments_table:
+INSERT INTO `comments_table`( `post_id`, `comment`) VALUES ('2','What are you doing here?'), ('3','What are you doing there?'), ('4','What are you doing sup?'), ('5','Shut up!');
+
+
+
+
+
+
+
+
+
+
+
