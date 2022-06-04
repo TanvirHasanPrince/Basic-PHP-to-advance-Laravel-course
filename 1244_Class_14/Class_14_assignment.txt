@@ -1,0 +1,23 @@
+user_information:
+
+addiing 5 user information:
+INSERT INTO `user_information`( `username`, `age`, `phone`, `address`, `salary`, `country`, `created_at`) VALUES ('Jamla','23','01783293823','Rankin Street','50000','Bangladesh','2022-05-31'), ('Kamal','22','01722393823','Sarson Street','15000','Saudi','2022-5-25'), ('Sokina','33','0178328888','Andorkilla Street','30000','Pakistan','2021-05-31'), ('Shoma','21','01233293823','Sonmalia Street','10000','Somalia','2022-05-31'), ('Utsav','28','01783293822','Nepal Street','50000','Nepal','2022-05-31');
+
+Users living in the same country:
+SELECT * FROM `user_information` WHERE `country` = 'Bangladesh';
+
+Show data  by high to low salary:
+SELECT * FROM `user_information` ORDER BY `salary`DESC;
+
+
+Max Salary:
+select * FROM user_information where salary=(select Max(salary) from user_information);
+
+Min Salary:
+select * FROM user_information where salary=(select MIN(salary) from user_information);
+
+Number or Rows:
+SELECT COUNT('id') FROM `user_information`;
+
+Salary between:
+SELECT * FROM user_information WHERE `salary` BETWEEN 5000 AND 15000;
