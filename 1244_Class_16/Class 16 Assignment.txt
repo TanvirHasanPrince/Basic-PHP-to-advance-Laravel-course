@@ -1,0 +1,10 @@
+Innner join
+SELECT `username`, `age`,`phone` FROM user INNER JOIN user_details on user.id = user_details.user_id;
+
+
+Left join:
+SELECT `username`, `age`,`phone`,user_details.details FROM user INNER JOIN user_details on user.id = user_details.user_id;
+
+Right join:
+SELECT `username`, `age`,`phone`,user_details.details FROM user RIGHT JOIN user_details on user.id = user_details.user_id;
+
